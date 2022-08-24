@@ -1,0 +1,286 @@
+@prefix bdbsa: <http://linked.data.gov.au/dataset/bdbsa/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix tern: <https://w3id.org/tern/ontologies/tern/> .
+@prefix tern-cv: <http://linked.data.gov.au/def/tern-cv/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+bdbsa:_10842b04-c832-4108-a55e-6f2bb812443b a tern:Boolean,
+        tern:Value ;
+    rdf:value false ;
+    sosa:isResultOf bdbsa:tern_survey_suspecies_reptile_occurrence-obs-isgravid-2304404 .
+
+bdbsa:_1296bf51-093e-4cb1-a505-e5e8d5f087c8 a tern:Boolean,
+        tern:Value ;
+    rdf:value false ;
+    sosa:isResultOf bdbsa:tern_survey_suspecies_reptile_occurrence-obs-isgravid-2304404 .
+
+bdbsa:_1356be68-ff8e-43a5-871b-119a9fcdfaae a time:Instant ;
+    time:inDateTime "2005-11-01T00:00:00"^^xsd:dateTime .
+
+bdbsa:_146b6def-d1f2-40c9-9db7-1242a0fe8bc0 a time:Instant ;
+    time:inDateTime "2005-11-01T00:00:00"^^xsd:dateTime .
+
+bdbsa:_21018c3a-b064-4570-8bcd-a3dc23ff510b a tern:IRI,
+        tern:Value ;
+    rdf:value <https://linked.data.gov.au/def/bdbsa-cv/94926bd0-2584-486a-b850-7d46a0002e24> ;
+    sosa:isResultOf bdbsa:tern_survey_suspecies_reptile_occurrence-obs-macrohabnr-2304404 .
+
+bdbsa:_2512550e-d3be-4e1b-af37-fb50500f2ffe a time:Instant ;
+    time:inDateTime "2005-11-01T00:00:00"^^xsd:dateTime .
+
+bdbsa:_2e3f6269-0893-4b20-8c1c-6ccb4793e037 a time:Instant ;
+    time:inDateTime "2005-11-01T00:00:00"^^xsd:dateTime .
+
+bdbsa:_2fee99ad-aa28-42c8-8049-4e0ce3adc23f a tern:IRI,
+        tern:Value ;
+    rdf:value <https://linked.data.gov.au/def/bdbsa-cv/6e58498a-f6af-45c9-a60a-2fd852e20b6c> ;
+    sosa:isResultOf bdbsa:tern_survey_suspecies_reptile_occurrence-obs-sex-2304404 .
+
+bdbsa:_32480d49-e4a0-4855-b8db-fab1afaf25ca a tern:IRI,
+        tern:Value ;
+    rdf:value <https://linked.data.gov.au/def/bdbsa-cv/94926bd0-2584-486a-b850-7d46a0002e24> ;
+    sosa:isResultOf bdbsa:tern_survey_suspecies_reptile_occurrence-obs-macrohabnr-2304404 .
+
+bdbsa:_330d8dbd-6d4e-4dd1-8018-ed891d1f0ffa a time:Instant ;
+    time:inDateTime "2005-11-01T00:00:00"^^xsd:dateTime .
+
+bdbsa:_3d07c405-f9e5-43c7-bdf6-b56188dd8b81 a time:Instant ;
+    time:inDateTime "2005-11-01T00:00:00"^^xsd:dateTime .
+
+bdbsa:_3d3cce8c-93e3-432b-944c-8bb8b8d50f1b a time:Instant ;
+    time:inDateTime "2005-11-01T00:00:00"^^xsd:dateTime .
+
+bdbsa:_4849c9c3-44ca-4dab-b0bf-57282ccd7022 a tern:IRI,
+        tern:Value ;
+    rdf:value <https://linked.data.gov.au/def/bdbsa-cv/e96e60c7-6558-47d1-813c-3b91b3c5dd56> ;
+    sosa:isResultOf bdbsa:tern_survey_suspecies_reptile_occurrence-obs-stratanr-2304404 .
+
+bdbsa:_5b82b9f2-c88c-466c-8618-8ae753573ce0 a tern:Boolean,
+        tern:Value ;
+    rdf:value false ;
+    sosa:isResultOf bdbsa:tern_survey_suspecies_reptile_occurrence-obs-plantedreleased-2304404 .
+
+bdbsa:_5eca997d-4da3-449c-9ee4-9d017aac7665 a tern:IRI,
+        tern:Value ;
+    rdf:value <https://linked.data.gov.au/def/bdbsa-cv/e96e60c7-6558-47d1-813c-3b91b3c5dd56> ;
+    sosa:isResultOf bdbsa:tern_survey_suspecies_reptile_occurrence-obs-stratanr-2304404 .
+
+bdbsa:_665cceb6-9f36-4a99-80d1-7f682d80af1c a tern:Boolean,
+        tern:Value ;
+    rdf:value false ;
+    sosa:isResultOf bdbsa:tern_survey_suspecies_reptile_occurrence-obs-isgravid-2304404 .
+
+bdbsa:_69128a6c-c0be-4411-9705-c6dfb280f8bd a time:Instant ;
+    time:inDateTime "2005-11-01T00:00:00"^^xsd:dateTime .
+
+bdbsa:_6a071caa-761f-42b9-af16-4fe95d346447 a time:Instant ;
+    time:inDateTime "2005-11-01T00:00:00"^^xsd:dateTime .
+
+bdbsa:_753927b2-5e7d-43b8-87ae-258463320dc2 a tern:IRI,
+        tern:Value ;
+    rdf:value <https://linked.data.gov.au/def/bdbsa-cv/6e58498a-f6af-45c9-a60a-2fd852e20b6c> ;
+    sosa:isResultOf bdbsa:tern_survey_suspecies_reptile_occurrence-obs-sex-2304404 .
+
+bdbsa:_813c6d2d-f3b3-4caf-ac0f-ad841d33d90d a time:Instant ;
+    time:inDateTime "2005-11-01T00:00:00"^^xsd:dateTime .
+
+bdbsa:_8d233924-a0f3-4e6c-8d56-556cea72605d a tern:IRI,
+        tern:Value ;
+    rdf:value <https://linked.data.gov.au/def/bdbsa-cv/6e58498a-f6af-45c9-a60a-2fd852e20b6c> ;
+    sosa:isResultOf bdbsa:tern_survey_suspecies_reptile_occurrence-obs-sex-2304404 .
+
+bdbsa:_8d9d3636-80e6-46b5-a0e4-0d9b9dc4ebfa a time:Instant ;
+    time:inDateTime "2005-11-01T00:00:00"^^xsd:dateTime .
+
+bdbsa:_8d9f87f1-008f-4ae8-8a0f-45074222f088 a time:Instant ;
+    time:inDateTime "2005-11-01T00:00:00"^^xsd:dateTime .
+
+bdbsa:_95a55670-8761-4eeb-8a00-53d4fb340b2d a tern:Text,
+        tern:Value ;
+    rdf:value "Nephrurus milii (Bory de Saint-Vincent, 1825)"^^xsd:string ;
+    sosa:isResultOf bdbsa:tern_survey_suspecies_reptile_occurrence-obs-species_name-2304404 .
+
+bdbsa:_9a2894bb-c271-4c37-bada-dabdf5547116 a time:Instant ;
+    time:inDateTime "2005-11-01T00:00:00"^^xsd:dateTime .
+
+bdbsa:_a6ac5174-0583-445e-b117-db0f8cdd9c84 a tern:Text,
+        tern:Value ;
+    rdf:value "Underwoodisaurus milii (Bory de Saint-Vincent, 1825)"^^xsd:string ;
+    sosa:isResultOf bdbsa:tern_survey_suspecies_reptile_occurrence-obs-species_name-2304404 .
+
+bdbsa:_b7e0ab06-4bab-4258-aa58-6a0697fd9b54 a time:Instant ;
+    time:inDateTime "2005-11-01T00:00:00"^^xsd:dateTime .
+
+bdbsa:_cec1b900-d41e-4d7d-88a5-a972d8fb56d0 a time:Instant ;
+    time:inDateTime "2005-11-01T00:00:00"^^xsd:dateTime .
+
+bdbsa:_d891cb6d-36dc-4795-a4dc-3dbb409d5b5c a time:Instant ;
+    time:inDateTime "2005-11-01T00:00:00"^^xsd:dateTime .
+
+bdbsa:_d8992580-42ea-4f6b-a2ec-039f9955b9a9 a tern:Boolean,
+        tern:Value ;
+    rdf:value false ;
+    sosa:isResultOf bdbsa:tern_survey_suspecies_reptile_occurrence-obs-plantedreleased-2304404 .
+
+bdbsa:_dcbc8a33-2e8f-4cf5-b079-66297e62f59e a tern:Boolean,
+        tern:Value ;
+    rdf:value false ;
+    sosa:isResultOf bdbsa:tern_survey_suspecies_reptile_occurrence-obs-plantedreleased-2304404 .
+
+bdbsa:_e70833e6-9741-46ac-be5e-18bbb253b9b2 a tern:Text,
+        tern:Value ;
+    rdf:value "Underwoodisaurus milii (Bory de Saint-Vincent, 1825)"^^xsd:string ;
+    sosa:isResultOf bdbsa:tern_survey_suspecies_reptile_occurrence-obs-species_name-2304404 .
+
+bdbsa:_e78e89bd-511a-440b-83ff-c5079e191aa7 a time:Instant ;
+    time:inDateTime "2005-11-01T00:00:00"^^xsd:dateTime .
+
+bdbsa:_efcc3fdb-e3bc-4abc-93e3-c20b7d3fff3e a time:Instant ;
+    time:inDateTime "2005-11-01T00:00:00"^^xsd:dateTime .
+
+bdbsa:_f18ad545-03d5-4aaa-aa68-9f486ef4aa4d a tern:IRI,
+        tern:Value ;
+    rdf:value <https://linked.data.gov.au/def/bdbsa-cv/e96e60c7-6558-47d1-813c-3b91b3c5dd56> ;
+    sosa:isResultOf bdbsa:tern_survey_suspecies_reptile_occurrence-obs-stratanr-2304404 .
+
+bdbsa:_f38bf9b6-1a9a-49c6-9ea3-c153c85c6a2a a tern:IRI,
+        tern:Value ;
+    rdf:value <https://linked.data.gov.au/def/bdbsa-cv/94926bd0-2584-486a-b850-7d46a0002e24> ;
+    sosa:isResultOf bdbsa:tern_survey_suspecies_reptile_occurrence-obs-macrohabnr-2304404 .
+
+bdbsa:tern_survey_suspecies_reptile_occurrence-obs-isgravid-2304404 a tern:Observation ;
+    dct:type tern:Observation ;
+    void:inDataset bdbsa:project-472 ;
+    sosa:hasFeatureOfInterest bdbsa:reptile_occurr_id-2304404 ;
+    sosa:hasResult bdbsa:_10842b04-c832-4108-a55e-6f2bb812443b,
+        bdbsa:_1296bf51-093e-4cb1-a505-e5e8d5f087c8,
+        bdbsa:_665cceb6-9f36-4a99-80d1-7f682d80af1c ;
+    sosa:hasSimpleResult false ;
+    sosa:observedProperty tern-cv:ccc675a9-f7c6-4f81-814b-533192f5c196 ;
+    sosa:phenomenonTime bdbsa:_1356be68-ff8e-43a5-871b-119a9fcdfaae,
+        bdbsa:_9a2894bb-c271-4c37-bada-dabdf5547116,
+        bdbsa:_cec1b900-d41e-4d7d-88a5-a972d8fb56d0 ;
+    sosa:usedProcedure <https://linked.data.gov.au/def/bdbsa-cv/d0d25612-95cc-40eb-a81a-603f9c0fbecf> ;
+    tern:hasSite bdbsa:site-raw00301-217370 ;
+    tern:hasSiteVisit bdbsa:sv-405136 ;
+    tern:resultDateTime "2005-11-01T00:00:00"^^xsd:dateTime ;
+    <urn:ecoplots:tags> "gravid state,reptile occurrence,RAW00301-217370,405136"^^xsd:string .
+
+bdbsa:tern_survey_suspecies_reptile_occurrence-obs-macrohabnr-2304404 a tern:Observation ;
+    dct:type tern:Observation ;
+    void:inDataset bdbsa:project-472 ;
+    sosa:hasFeatureOfInterest bdbsa:reptile_occurr_id-2304404 ;
+    sosa:hasResult bdbsa:_21018c3a-b064-4570-8bcd-a3dc23ff510b,
+        bdbsa:_32480d49-e4a0-4855-b8db-fab1afaf25ca,
+        bdbsa:_f38bf9b6-1a9a-49c6-9ea3-c153c85c6a2a ;
+    sosa:hasSimpleResult <https://linked.data.gov.au/def/bdbsa-cv/94926bd0-2584-486a-b850-7d46a0002e24> ;
+    sosa:observedProperty tern-cv:e00e135f-2657-4ebd-92ed-5b9c4c72c830 ;
+    sosa:phenomenonTime bdbsa:_146b6def-d1f2-40c9-9db7-1242a0fe8bc0,
+        bdbsa:_330d8dbd-6d4e-4dd1-8018-ed891d1f0ffa,
+        bdbsa:_3d3cce8c-93e3-432b-944c-8bb8b8d50f1b ;
+    sosa:usedProcedure <https://linked.data.gov.au/def/bdbsa-cv/d0d25612-95cc-40eb-a81a-603f9c0fbecf> ;
+    tern:hasSite bdbsa:site-raw00301-217370 ;
+    tern:hasSiteVisit bdbsa:sv-405136 ;
+    tern:resultDateTime "2005-11-01T00:00:00"^^xsd:dateTime ;
+    <urn:ecoplots:tags> "animal habitat description,reptile occurrence,RAW00301-217370,405136"^^xsd:string .
+
+bdbsa:tern_survey_suspecies_reptile_occurrence-obs-plantedreleased-2304404 a tern:Observation ;
+    dct:type tern:Observation ;
+    void:inDataset bdbsa:project-472 ;
+    sosa:hasFeatureOfInterest bdbsa:reptile_occurr_id-2304404 ;
+    sosa:hasResult bdbsa:_5b82b9f2-c88c-466c-8618-8ae753573ce0,
+        bdbsa:_d8992580-42ea-4f6b-a2ec-039f9955b9a9,
+        bdbsa:_dcbc8a33-2e8f-4cf5-b079-66297e62f59e ;
+    sosa:hasSimpleResult false ;
+    sosa:observedProperty tern-cv:fb4ab699-6ab3-4394-ac7b-ce6294face9c ;
+    sosa:phenomenonTime bdbsa:_8d9f87f1-008f-4ae8-8a0f-45074222f088,
+        bdbsa:_b7e0ab06-4bab-4258-aa58-6a0697fd9b54,
+        bdbsa:_e78e89bd-511a-440b-83ff-c5079e191aa7 ;
+    sosa:usedProcedure <https://linked.data.gov.au/def/bdbsa-cv/d0d25612-95cc-40eb-a81a-603f9c0fbecf> ;
+    tern:hasSite bdbsa:site-raw00301-217370 ;
+    tern:hasSiteVisit bdbsa:sv-405136 ;
+    tern:resultDateTime "2005-11-01T00:00:00"^^xsd:dateTime ;
+    <urn:ecoplots:tags> "released status,reptile occurrence,RAW00301-217370,405136"^^xsd:string .
+
+bdbsa:tern_survey_suspecies_reptile_occurrence-obs-sex-2304404 a tern:Observation ;
+    dct:type tern:Observation ;
+    void:inDataset bdbsa:project-472 ;
+    sosa:hasFeatureOfInterest bdbsa:reptile_occurr_id-2304404 ;
+    sosa:hasResult bdbsa:_2fee99ad-aa28-42c8-8049-4e0ce3adc23f,
+        bdbsa:_753927b2-5e7d-43b8-87ae-258463320dc2,
+        bdbsa:_8d233924-a0f3-4e6c-8d56-556cea72605d ;
+    sosa:hasSimpleResult <https://linked.data.gov.au/def/bdbsa-cv/6e58498a-f6af-45c9-a60a-2fd852e20b6c> ;
+    sosa:observedProperty tern-cv:05cbf534-c233-4aa8-a08c-00b28976ed36 ;
+    sosa:phenomenonTime bdbsa:_2512550e-d3be-4e1b-af37-fb50500f2ffe,
+        bdbsa:_6a071caa-761f-42b9-af16-4fe95d346447,
+        bdbsa:_efcc3fdb-e3bc-4abc-93e3-c20b7d3fff3e ;
+    sosa:usedProcedure <https://linked.data.gov.au/def/bdbsa-cv/d0d25612-95cc-40eb-a81a-603f9c0fbecf> ;
+    tern:hasSite bdbsa:site-raw00301-217370 ;
+    tern:hasSiteVisit bdbsa:sv-405136 ;
+    tern:resultDateTime "2005-11-01T00:00:00"^^xsd:dateTime ;
+    <urn:ecoplots:tags> "sex,reptile occurrence,RAW00301-217370,405136"^^xsd:string .
+
+bdbsa:tern_survey_suspecies_reptile_occurrence-obs-species_name-2304404 a tern:Observation ;
+    dct:type tern:Observation ;
+    void:inDataset bdbsa:project-472 ;
+    sosa:hasFeatureOfInterest bdbsa:reptile_occurr_id-2304404 ;
+    sosa:hasResult bdbsa:_95a55670-8761-4eeb-8a00-53d4fb340b2d,
+        bdbsa:_a6ac5174-0583-445e-b117-db0f8cdd9c84,
+        bdbsa:_e70833e6-9741-46ac-be5e-18bbb253b9b2 ;
+    sosa:hasSimpleResult "Nephrurus milii (Bory de Saint-Vincent, 1825)"^^xsd:string,
+        "Underwoodisaurus milii (Bory de Saint-Vincent, 1825)"^^xsd:string ;
+    sosa:observedProperty tern-cv:56195246-ec5d-4050-a1c6-af786fbec715 ;
+    sosa:phenomenonTime bdbsa:_2e3f6269-0893-4b20-8c1c-6ccb4793e037,
+        bdbsa:_813c6d2d-f3b3-4caf-ac0f-ad841d33d90d,
+        bdbsa:_8d9d3636-80e6-46b5-a0e4-0d9b9dc4ebfa ;
+    sosa:usedProcedure <https://linked.data.gov.au/def/bdbsa-cv/d0d25612-95cc-40eb-a81a-603f9c0fbecf> ;
+    tern:hasSite bdbsa:site-raw00301-217370 ;
+    tern:hasSiteVisit bdbsa:sv-405136 ;
+    tern:resultDateTime "2005-11-01T00:00:00"^^xsd:dateTime ;
+    <urn:ecoplots:tags> "scientific name,reptile occurrence,RAW00301-217370,405136"^^xsd:string .
+
+bdbsa:tern_survey_suspecies_reptile_occurrence-obs-stratanr-2304404 a tern:Observation ;
+    dct:type tern:Observation ;
+    void:inDataset bdbsa:project-472 ;
+    sosa:hasFeatureOfInterest bdbsa:reptile_occurr_id-2304404 ;
+    sosa:hasResult bdbsa:_4849c9c3-44ca-4dab-b0bf-57282ccd7022,
+        bdbsa:_5eca997d-4da3-449c-9ee4-9d017aac7665,
+        bdbsa:_f18ad545-03d5-4aaa-aa68-9f486ef4aa4d ;
+    sosa:hasSimpleResult <https://linked.data.gov.au/def/bdbsa-cv/e96e60c7-6558-47d1-813c-3b91b3c5dd56> ;
+    sosa:observedProperty tern-cv:10ae9db4-a72e-4217-9366-38ff9b2be2a0 ;
+    sosa:phenomenonTime bdbsa:_3d07c405-f9e5-43c7-bdf6-b56188dd8b81,
+        bdbsa:_69128a6c-c0be-4411-9705-c6dfb280f8bd,
+        bdbsa:_d891cb6d-36dc-4795-a4dc-3dbb409d5b5c ;
+    sosa:usedProcedure <https://linked.data.gov.au/def/bdbsa-cv/d0d25612-95cc-40eb-a81a-603f9c0fbecf> ;
+    tern:hasSite bdbsa:site-raw00301-217370 ;
+    tern:hasSiteVisit bdbsa:sv-405136 ;
+    tern:resultDateTime "2005-11-01T00:00:00"^^xsd:dateTime ;
+    <urn:ecoplots:tags> "animal observation height,reptile occurrence,RAW00301-217370,405136"^^xsd:string .
+
+bdbsa:site-raw00301-217370 tern:isSiteOf bdbsa:reptile_occurr_id-2304404,
+        bdbsa:tern_survey_suspecies_reptile_occurrence-obs-isgravid-2304404,
+        bdbsa:tern_survey_suspecies_reptile_occurrence-obs-macrohabnr-2304404,
+        bdbsa:tern_survey_suspecies_reptile_occurrence-obs-plantedreleased-2304404,
+        bdbsa:tern_survey_suspecies_reptile_occurrence-obs-sex-2304404,
+        bdbsa:tern_survey_suspecies_reptile_occurrence-obs-species_name-2304404,
+        bdbsa:tern_survey_suspecies_reptile_occurrence-obs-stratanr-2304404 .
+
+bdbsa:sv-405136 tern:isSiteVisitOf bdbsa:reptile_occurr_id-2304404,
+        bdbsa:tern_survey_suspecies_reptile_occurrence-obs-isgravid-2304404,
+        bdbsa:tern_survey_suspecies_reptile_occurrence-obs-macrohabnr-2304404,
+        bdbsa:tern_survey_suspecies_reptile_occurrence-obs-plantedreleased-2304404,
+        bdbsa:tern_survey_suspecies_reptile_occurrence-obs-sex-2304404,
+        bdbsa:tern_survey_suspecies_reptile_occurrence-obs-species_name-2304404,
+        bdbsa:tern_survey_suspecies_reptile_occurrence-obs-stratanr-2304404 .
+
+bdbsa:reptile_occurr_id-2304404 a tern:FeatureOfInterest ;
+    dct:type tern:FeatureOfInterest ;
+    void:inDataset bdbsa:project-472 ;
+    tern:featureType tern-cv:c4e95889-9205-432f-9748-e83966e742c9 ;
+    tern:hasSite bdbsa:site-raw00301-217370 ;
+    tern:hasSiteVisit bdbsa:sv-405136 .
+

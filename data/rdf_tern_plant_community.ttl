@@ -1,0 +1,92 @@
+@prefix bdbsa: <http://linked.data.gov.au/dataset/bdbsa/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix tern: <https://w3id.org/tern/ontologies/tern/> .
+@prefix tern-cv: <http://linked.data.gov.au/def/tern-cv/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+bdbsa:_0d90bb10-5a3c-41b9-9c3d-86228b9aae6d a time:Instant ;
+    time:inDateTime "2005-10-31T00:00:00"^^xsd:dateTime .
+
+bdbsa:_2a03655d-187a-4c1d-bc71-d5b0da6c0bc3 a time:Instant ;
+    time:inDateTime "2005-10-31T00:00:00"^^xsd:dateTime .
+
+bdbsa:_4f8f8981-1385-481f-9568-858cdbdffc0c a tern:Boolean,
+        tern:Value ;
+    rdf:value false ;
+    sosa:isResultOf bdbsa:tern_plant_community-obs-isfirescars-raw00301-217370405136 .
+
+bdbsa:_875e4d05-cfa2-4b7b-b1d2-432770cd25ab a tern:Boolean,
+        tern:Value ;
+    rdf:value false .
+
+bdbsa:_c63f22a8-0bb6-4213-a94a-05ab659c7790 a tern:IRI,
+        tern:Value ;
+    rdf:value <https://linked.data.gov.au/def/bdbsa-cv/dd264ff6-8828-41b4-9e67-e07d58ce2eae> ;
+    sosa:isResultOf bdbsa:tern_plant_community-obs-strformationnr-raw00301-217370405136 .
+
+bdbsa:tern_plant_community-attr-isfireyrcertain-raw00301-217370405136 a tern:Attribute ;
+    dct:type tern:Attribute ;
+    void:inDataset bdbsa:project-472 ;
+    tern:attribute tern-cv:105470c3-2824-45a1-87a2-3e3da65ae53d ;
+    tern:hasSimpleValue false ;
+    tern:hasValue bdbsa:_875e4d05-cfa2-4b7b-b1d2-432770cd25ab ;
+    tern:isAttributeOf bdbsa:tern_plant_community-obs-isfireyrcertain-raw00301-217370405136 .
+
+bdbsa:tern_plant_community-obs-isfireyrcertain-raw00301-217370405136 tern:hasAttribute bdbsa:tern_plant_community-attr-isfireyrcertain-raw00301-217370405136 .
+
+bdbsa:plant_community_id-raw00301-217370405136 a tern:FeatureOfInterest ;
+    dct:type tern:FeatureOfInterest ;
+    void:inDataset bdbsa:project-472 ;
+    tern:featureType tern-cv:ea3a4c64-dac3-4660-809a-8ad5ced8997b ;
+    tern:hasSite bdbsa:site-raw00301-217370 ;
+    tern:hasSiteVisit bdbsa:sv-405136 .
+
+bdbsa:tern_plant_community-obs-isfirescars-raw00301-217370405136 a tern:Observation ;
+    dct:type tern:Observation ;
+    void:inDataset bdbsa:project-472 ;
+    sosa:hasFeatureOfInterest bdbsa:vegetation_disturbance_id-raw00301-217370405136 ;
+    sosa:hasResult bdbsa:_4f8f8981-1385-481f-9568-858cdbdffc0c ;
+    sosa:hasSimpleResult false ;
+    sosa:observedProperty tern-cv:800cf33b-1c44-435d-89bd-5d80e3e8aba1 ;
+    sosa:phenomenonTime bdbsa:_2a03655d-187a-4c1d-bc71-d5b0da6c0bc3 ;
+    sosa:usedProcedure <https://linked.data.gov.au/def/bdbsa-cv/4685d5a2-68e7-4a68-ad86-a35ac9fc8624> ;
+    tern:hasSite bdbsa:site-raw00301-217370 ;
+    tern:hasSiteVisit bdbsa:sv-405136 ;
+    tern:resultDateTime "2005-10-31T00:00:00"^^xsd:dateTime ;
+    <urn:ecoplots:tags> "fire present,vegetation disturbance,RAW00301-217370,405136"^^xsd:string .
+
+bdbsa:tern_plant_community-obs-strformationnr-raw00301-217370405136 a tern:Observation ;
+    dct:type tern:Observation ;
+    void:inDataset bdbsa:project-472 ;
+    sosa:hasFeatureOfInterest bdbsa:plant_community_id-raw00301-217370405136 ;
+    sosa:hasResult bdbsa:_c63f22a8-0bb6-4213-a94a-05ab659c7790 ;
+    sosa:hasSimpleResult <https://linked.data.gov.au/def/bdbsa-cv/dd264ff6-8828-41b4-9e67-e07d58ce2eae> ;
+    sosa:observedProperty tern-cv:08dde64e-5f1b-48c3-8ed3-3469780cbf24 ;
+    sosa:phenomenonTime bdbsa:_0d90bb10-5a3c-41b9-9c3d-86228b9aae6d ;
+    sosa:usedProcedure <https://linked.data.gov.au/def/bdbsa-cv/86bce58f-fb58-453b-a343-f905e3329878> ;
+    tern:hasSite bdbsa:site-raw00301-217370 ;
+    tern:hasSiteVisit bdbsa:sv-405136 ;
+    tern:resultDateTime "2005-10-31T00:00:00"^^xsd:dateTime ;
+    <urn:ecoplots:tags> "structural formation,plant community,RAW00301-217370,405136"^^xsd:string .
+
+bdbsa:vegetation_disturbance_id-raw00301-217370405136 a tern:FeatureOfInterest ;
+    dct:type tern:FeatureOfInterest ;
+    void:inDataset bdbsa:project-472 ;
+    tern:featureType tern-cv:d4fc54b1-0ad3-4512-86b7-d42b121ece45 ;
+    tern:hasSite bdbsa:site-raw00301-217370 ;
+    tern:hasSiteVisit bdbsa:sv-405136 .
+
+bdbsa:site-raw00301-217370 tern:isSiteOf bdbsa:plant_community_id-raw00301-217370405136,
+        bdbsa:tern_plant_community-obs-isfirescars-raw00301-217370405136,
+        bdbsa:tern_plant_community-obs-strformationnr-raw00301-217370405136,
+        bdbsa:vegetation_disturbance_id-raw00301-217370405136 .
+
+bdbsa:sv-405136 tern:isSiteVisitOf bdbsa:plant_community_id-raw00301-217370405136,
+        bdbsa:tern_plant_community-obs-isfirescars-raw00301-217370405136,
+        bdbsa:tern_plant_community-obs-strformationnr-raw00301-217370405136,
+        bdbsa:vegetation_disturbance_id-raw00301-217370405136 .
+

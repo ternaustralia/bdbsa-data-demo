@@ -1,0 +1,112 @@
+@prefix bdbsa: <http://linked.data.gov.au/dataset/bdbsa/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix tern: <https://w3id.org/tern/ontologies/tern/> .
+@prefix tern-cv: <http://linked.data.gov.au/def/tern-cv/> .
+@prefix tern-loc: <https://w3id.org/tern/ontologies/loc/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://linked.data.gov.au/dataset/bdbsa> a tern:RDFDataset ;
+    dct:alternative "Biological Databases of South Australia" ;
+    dct:bibliographicCitation "TBD" ;
+    dct:creator <https://w3id.org/tern/resources/06018646-6cf0-4049-a06a-02180cbc7936> ;
+    dct:description "<div><p>Biodiversity information in the department is predominantly stored in the Biological Databases of South Australia (BDBSA) which manages specimen and observation records and includes taxonomic systems for South Australian flora and fauna.</p><p>BDBSA data supports decision making on environmental issues within the South Australian and Australian governments as well as the wider community with an interest in biodiversity conservation.</p><p>More about:</p><ul><li><a target=\"_blank\" title=\"BDBSA overview\" href=\"https://data.environment.sa.gov.au/Content/Publications/bdbsa-overview-fact.pdf\" rel=\"noreferrer noopener\">BDBSA overview</a></li><li><a target=\"_blank\" title=\"Data request procedure\" href=\"https://data.environment.sa.gov.au/Content/Publications/bdbsa-data-request-procedure-fact.pdf\" rel=\"noreferrer noopener\">Data request procedure </a></li><li><a href=\"https://data.environment.sa.gov.au/Content/Publications/bdbsa-supertable-overview-fact.pdf\">Supertable overview</a></li><li><a target=\"_blank\" title=\"Supertable field definitions\" href=\"https://data.environment.sa.gov.au/Content/Publications/bdbsa-supertable-field-definitions-fact.pdf\" rel=\"noreferrer noopener\">Supertable field definitions</a></li><li><a href=\"https://data.environment.sa.gov.au/Content/Publications/bdbsa-absence-presence-fact.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">BDBSA species presence and absence observations</a></li></ul><p>The department is responsible for the storage and maintenance of the data. Well established relationships with <a target=\"_blank\" title=\"SA Museum\" href=\"http://www.samuseum.sa.gov.au\" rel=\"noreferrer noopener\">SA Museum</a> and <a title=\"State Herbarium\" href=\"https://www.environment.sa.gov.au/topics/science/science-research/state-herbarium\">State Herbarium</a> curators and taxonomists support this function.</p><p>Ongoing data management and continuous review, taking account of periodic taxonomic revision, preserves record integrity and ensures the highest quality biological information is available to collectors, custodians and users alike.</p><p>The 1000+ datasets within the BDBSA includes:</p><ul><li>more than 1.5 million vertebrate records comprising birds, mammals, reptiles and amphibians</li><li>more than 1 million flora location records</li><li>more than 11,000 photopoints.</li></ul><p class=\"p1\">Summary fauna and flora records can be retrieved using <a href=\"https://data.environment.sa.gov.au/NatureMaps/Pages/default.aspx\" target=\"_blank\" title=\"NatureMaps\" rel=\"noreferrer noopener\">NatureMaps</a> and/or <a href=\"http://www.ala.org.au/\" target=\"_blank\" rel=\"noreferrer noopener\">Atlas of Living Australia</a>.</p></div>                " ;
+    dct:issued "2022-07-05"^^xsd:date ;
+    dct:publisher <https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66> ;
+    dct:title "BDBSA" ;
+    dct:type tern:RDFDataset .
+
+bdbsa:_6a40d827-5339-4619-bb01-4dd2b5dc9b2a a tern:IRI,
+        tern:Value ;
+    rdf:value <https://linked.data.gov.au/def/bdbsa-cv/c4d96fae-132e-4949-899f-0f5105463714> .
+
+bdbsa:_74592d2e-bc2b-4655-bb52-9dac26f34834 a tern:Text,
+        tern:Value ;
+    rdf:value "Rawnsley Park Station"^^xsd:string .
+
+bdbsa:_7e886add-a974-458b-9eb4-730ead70f026 a geosparql:Geometry,
+        tern-loc:Point ;
+    dct:type tern-loc:Point ;
+    geosparql:asWKT "POINT(138.60601 -31.63047)"^^geosparql:wktLiteral ;
+    geo:alt 530.00000 ;
+    geo:lat -31.63047 ;
+    geo:long 138.60601 ;
+    tern-loc:pointType tern-cv:7e2e87b6-c9ec-43ac-92b0-1976fc623c0c .
+
+bdbsa:_7f82f71d-8093-4ad5-9212-02bc76d3b6a8 a tern:IRI,
+        tern:Value ;
+    rdf:value <https://linked.data.gov.au/def/bdbsa-cv/5888deb1-abf4-45d9-af12-a5fd3e8a666e> .
+
+bdbsa:sv-405136 a tern:SiteVisit ;
+    dct:identifier "405136"^^xsd:string ;
+    dct:type tern:SiteVisit ;
+    void:inDataset bdbsa:project-472 ;
+    prov:endedAtTime "2005-10-31T23:00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2005-10-31T23:00:00"^^xsd:dateTime ;
+    tern:hasSite bdbsa:site-raw00301-217370 ;
+    tern:locationDescription ""^^xsd:string .
+
+bdbsa:tern_sites_visits_projects-attr-locmethodnr-405136 a tern:Attribute ;
+    dct:type tern:Attribute ;
+    void:inDataset bdbsa:project-472 ;
+    tern:attribute tern-cv:6d40f324-8431-4e7e-af3b-7df4d0ad5e3a ;
+    tern:hasSimpleValue <https://linked.data.gov.au/def/bdbsa-cv/c4d96fae-132e-4949-899f-0f5105463714> ;
+    tern:hasValue bdbsa:_6a40d827-5339-4619-bb01-4dd2b5dc9b2a ;
+    tern:isAttributeOf bdbsa:site-raw00301-217370 .
+
+bdbsa:tern_sites_visits_projects-attr-property-405136 a tern:Attribute ;
+    dct:type tern:Attribute ;
+    void:inDataset bdbsa:project-472 ;
+    tern:attribute tern-cv:dbf4aae7-4179-486b-b181-4f7942f657db ;
+    tern:hasSimpleValue "Rawnsley Park Station"^^xsd:string ;
+    tern:hasValue bdbsa:_74592d2e-bc2b-4655-bb52-9dac26f34834 ;
+    tern:isAttributeOf bdbsa:site-raw00301-217370 .
+
+bdbsa:tern_sites_visits_projects-attr-reliabnr-405136 a tern:Attribute ;
+    dct:type tern:Attribute ;
+    void:inDataset bdbsa:project-472 ;
+    tern:attribute tern-cv:73241f84-d579-4193-a57f-4776dabf96c0 ;
+    tern:hasSimpleValue <https://linked.data.gov.au/def/bdbsa-cv/5888deb1-abf4-45d9-af12-a5fd3e8a666e> ;
+    tern:hasValue bdbsa:_7f82f71d-8093-4ad5-9212-02bc76d3b6a8 ;
+    tern:isAttributeOf bdbsa:site-raw00301-217370 .
+
+tern-cv:6d40f324-8431-4e7e-af3b-7df4d0ad5e3a dct:relation <https://linked.data.gov.au/def/bdbsa-cv/575a8628-85f0-4e36-a497-46022c175e5b> .
+
+tern-cv:73241f84-d579-4193-a57f-4776dabf96c0 dct:relation <https://linked.data.gov.au/def/bdbsa-cv/4a5ede21-4dcd-4c71-834f-cf7f340e4d8e> .
+
+bdbsa:site-raw00301-217370 a tern:FeatureOfInterest,
+        tern:Sample,
+        tern:Site ;
+    dct:identifier "RAW00301-217370"^^xsd:string ;
+    dct:type tern:Site ;
+    void:inDataset bdbsa:project-472 ;
+    geosparql:hasGeometry bdbsa:_7e886add-a974-458b-9eb4-730ead70f026 ;
+    geosparql:sfWithin <region:asgs2016/stateorterritory>,
+        <region:bioregion>,
+        <region:bioregion/IBRA7>,
+        <region:capad-2018-terrestrial>,
+        <region:local-gov-areas-2011>,
+        <region:nrm-2017>,
+        <region:wwf-terr-ecoregions> ;
+    tern:featureType tern-cv:5bf7ae21-a454-440b-bdd7-f2fe982d8de4 ;
+    tern:hasAttribute bdbsa:tern_sites_visits_projects-attr-locmethodnr-405136,
+        bdbsa:tern_sites_visits_projects-attr-property-405136,
+        bdbsa:tern_sites_visits_projects-attr-reliabnr-405136 ;
+    tern:hasSiteVisit bdbsa:sv-405136 ;
+    tern:locationDescription "3.5 km ESE of Fred Nob (summit)"^^xsd:string ;
+    tern:siteDescription "Site is approximately 200m east of Mawson Trail Park at old fence line and walk North up slope to line A then under floodgate and up creek to line B."^^xsd:string .
+
+bdbsa:project-472 a tern:RDFDataset ;
+    dct:alternative "Rawnsley Bluff Biological Survey" ;
+    dct:bibliographicCitation "TBD" ;
+    dct:creator <https://w3id.org/tern/resources/06018646-6cf0-4049-a06a-02180cbc7936> ;
+    dct:description "None" ;
+    dct:publisher <https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66> ;
+    dct:title "RAWNSLEY BLUFF" ;
+    dct:type tern:RDFDataset ;
+    void:subset <http://linked.data.gov.au/dataset/bdbsa> .
+
