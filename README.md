@@ -19,3 +19,17 @@ The data in this repository is made available via Ontodia at https://ternaustral
 ## SPARQL endpoint
 
 The data is also made available via a SPARQL endpoint at https://graphdb.tern.org.au/repositories/bdbsa_data_demo.
+
+If you'd like to view it, you can use this SPARQL client at https://yasgui.triply.cc/ and query the SPARQL endpoint mentioned above.
+
+Here's an example query fetching all sites and their properties and values:
+
+```sparql
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX tern: <https://w3id.org/tern/ontologies/tern/>
+SELECT * WHERE {
+	?site a tern:Site .
+  	?site ?p ?o .
+} LIMIT 100
+```
