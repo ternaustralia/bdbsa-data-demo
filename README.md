@@ -29,7 +29,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX tern: <https://w3id.org/tern/ontologies/tern/>
 SELECT * WHERE {
-	?site a tern:Site .
-  	?site ?p ?o .
+    ?site a tern:Site .
+    ?site ?p ?o .
 } LIMIT 100
 ```
