@@ -1,4 +1,4 @@
-@prefix bdbsa: <http://linked.data.gov.au/dataset/bdbsa/> .
+@prefix bdbsa: <https://linked.data.gov.au/dataset/bdbsa/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
@@ -10,7 +10,7 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://linked.data.gov.au/dataset/bdbsa> a tern:RDFDataset ;
+<https://linked.data.gov.au/dataset/bdbsa> a tern:RDFDataset ;
     dct:alternative "Biological Databases of South Australia" ;
     dct:bibliographicCitation "TBD" ;
     dct:creator <https://w3id.org/tern/resources/06018646-6cf0-4049-a06a-02180cbc7936> ;
@@ -108,5 +108,5 @@ bdbsa:project-472 a tern:RDFDataset ;
     dct:publisher <https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66> ;
     dct:title "RAWNSLEY BLUFF" ;
     dct:type tern:RDFDataset ;
-    void:subset <http://linked.data.gov.au/dataset/bdbsa> .
+    void:subset <https://linked.data.gov.au/dataset/bdbsa> .
 

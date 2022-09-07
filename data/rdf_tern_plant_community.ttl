@@ -1,4 +1,4 @@
-@prefix bdbsa: <http://linked.data.gov.au/dataset/bdbsa/> .
+@prefix bdbsa: <https://linked.data.gov.au/dataset/bdbsa/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
